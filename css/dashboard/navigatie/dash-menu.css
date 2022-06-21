@@ -1,0 +1,91 @@
+a {
+  color: white;
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body {
+  color: white;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  height: 110px;
+  background: #b82027;
+  justify-content: space-between;
+}
+.myacc {
+  text-decoration: none;
+  padding: 40px;
+  font-size: x-large;
+  font-family: Arial;
+  order: 2;
+  background: none!important;
+  border: none;
+  cursor: pointer;
+}
+.nav_img{
+  padding-left: 5px;
+  order: 1;
+}
+/*Slide effect & Style*/
+.menu {
+    position: fixed;
+    height: 100%;
+    width: 70px;
+    background: #b82027;
+    transition: 0.8s;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: Arial;
+    z-index: 99;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.menu:hover {
+  width: 220px;
+  text-align: left;
+}
+.menuitem span {
+  position: absolute;
+  left: 80px;
+  top: 20px;
+  transition: color 1s;
+  color: rgba(255, 255, 255, 0);
+}
+.menu:hover .menuitem span {
+  color: rgb(255, 255, 255);
+}
+.menuitem {
+  text-align: left;
+  position: relative;
+  padding: 20px;
+  transition: border 0.5s, background 0.5s;
+}
+.menuitem:hover {
+  background: #740d0d;
+  cursor: pointer;
+  border-left: 20px solid #ff8b02;
+}
+.menu-bottom {
+  position: absolute;
+  bottom: 200px;
+}
+
+/* COPY RIGHT CSS*/
+#nav_copyright {display: none;}
+#nav_copyright {
+  text-align: center;
+  font-size: medium;
+  display: block;
+  font-stretch: ultra-condensed;
+  font-kerning: none;
+  position: absolute;
+}

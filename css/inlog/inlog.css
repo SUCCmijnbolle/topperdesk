@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+.arial {
+  font-family: Arial;
+}
+html {
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #b82027;
+}
+img {
+  padding: 1vh;
+  width: 125px;
+  height: auto;
+}
+h3 {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #b82027;
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+#page{
+  padding-left: 25%;
+}
+#container {
+  background-color: #ffffff;
+  color: #707070;
+  width: calc(100% - 33%);
+}
+#button > a {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 50px;
+  background-color: #0d4074;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+#button > a:hover {
+  background-color: #286099;
+}
+.forgotps {
+  font-size: 20px;
+  line-height: 0.4;
+}
+.noacc {
+  font-size: 20px;
+  line-height: 0.4;
+  padding-bottom: 4%;
+}
+.inlog-option a{
+  color: #ff1f29;
+}
+.form > .login-button{
+  padding: 15px 5px;
+  color: white;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #ff1f29;
+}
+a:hover {
+  color: #ff8b02;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+.form {
+  margin: 50px auto;
+  width: 300px;
+  padding: 30px 25px;
+  background: white;
+}
+h1.login-title {
+  color: #666;
+  margin: 0px auto 25px;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+.login-input {
+  font-size: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  height: 25px;
+  width: calc(100% - 23px);
+}
+.login-input:focus {
+  border-color:#6e8095;
+  outline: none;
+}
+.link {
+  color: #666;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.con-25 {
+  float: center;
+  width: 100%;
+  margin-top: 6px;
+  box-sizing: border-box;
+}

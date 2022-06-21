@@ -1,0 +1,96 @@
+h1 {
+    font-family: Arial;
+}
+.divcol {
+    font-size: 26px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+	color: white;
+    text-align: center;
+    width: 31%;
+}
+.coll-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.collection{    
+    padding: 15px;
+    text-align: center;
+}
+.scrollbox {
+    width: 1300px;
+    height: 500px;
+    background-color: #000000;
+    overflow: scroll;
+    padding: 5px;
+    border: 4px double #0d4074;
+}
+h6 {
+    text-align: right;
+    color: black;
+    font-size: xx-large;
+    font-kerning: normal;
+    font-family: Arial;
+}
+.container {
+    padding: 20px;
+    position: absolute;
+    left: 70px;
+    width: 1vw - 70px;
+    height: 1vh - 110px;
+}
+.container > h1 {
+    color: black;
+}
+.form-inline{
+    color: black;
+}
+.coll-delete{
+    border: none;
+    background-color: white;
+    font-size: 30px;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+@media (max-width: 1900px) {
+    .homescrollbox {
+        width: 80%;
+        height:500px
+    }
+}
+@media (max-width: 1600px) {
+    .homescrollbox {
+        width: 80%;
+        height:450px
+    }
+}
+@media (max-width: 1200px) {
+    .homescrollbox {
+        width: 80%;
+        height:400px
+    }
+}
+@media (max-width: 800px) {
+    .colitem {
+      width: 48%;
+      padding-left: 10px;
+    }
+    .homescrollbox {
+        width: 80%;
+        height:600px;
+    }
+}
+@media (max-width: 600px) {
+    .colitem {
+      width: 48%;
+      padding-left: 10px;
+    }
+    .homescrollbox {
+        width: 90%;
+        height:800px;
+    }
+}

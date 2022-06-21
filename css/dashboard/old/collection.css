@@ -1,0 +1,17 @@
+.coll-items{
+    display: flex;
+    flex-direction: row;
+}.collection{
+    display: flex;
+    flex-direction: column;
+}  
+.coll-img{
+    padding: 5px;
+}
+.coll-text{
+    text-align: center;
+    color: black;
+}
+h1 {
+    font-family: Arial;
+}
