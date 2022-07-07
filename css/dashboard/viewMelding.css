@@ -1,0 +1,36 @@
+.info{
+    margin : 0px;
+    margin-bottom: 10px;
+    display : inline-block;
+    float: none;
+    justify-content: space-between;
+}
+
+
+#info1{
+    margin-left: 72px;
+}
+#info2{
+    margin-left: 20px;
+}
+#info3{
+    margin-left: 20px;
+}
+#info4{
+    margin-left: 65px;
+}
+
+.klachtNaamTitle
+{
+    font-size: 20px;
+}
+
+.klachtImg{
+    float:right;
+    height: 180px;
+    width: 180px
+}
+.container > h1 {
+    margin-top: 0px;
+    color: white;
+}

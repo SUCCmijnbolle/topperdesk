@@ -17,7 +17,7 @@ require("../include/auth_session.php");
     <?php include('../include/nav-dash.php'); ?>
     <div class="container">
       <h1 class="page-title">Gebruikers</h1>
-      <div id="page-content">
+        
     </div>
   </div>
 </body>

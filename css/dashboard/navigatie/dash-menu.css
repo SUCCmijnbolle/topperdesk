@@ -19,21 +19,26 @@ body {
   height: 110px;
   background: #b82027;
   justify-content: space-between;
+  
 }
 .myacc {
   text-decoration: none;
-  padding: 40px;
   font-size: x-large;
   font-family: Arial;
-  order: 2;
+  order: 1;
   background: none!important;
   border: none;
   cursor: pointer;
+  
 }
 .nav_img{
   padding-left: 5px;
-  order: 1;
+  order: 0;
 }
+.klachtImg {
+  border-radius: 100%;
+}
+
 /*Slide effect & Style*/
 .menu {
     position: fixed;
@@ -48,6 +53,7 @@ body {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 400;
+
 }
 .menu:hover {
   width: 220px;
@@ -76,16 +82,6 @@ body {
 }
 .menu-bottom {
   position: absolute;
-  bottom: 200px;
+  bottom: 130px;
 }
-
-/* COPY RIGHT CSS*/
-#nav_copyright {display: none;}
-#nav_copyright {
-  text-align: center;
-  font-size: medium;
-  display: block;
-  font-stretch: ultra-condensed;
-  font-kerning: none;
-  position: absolute;
-}
+.nav_copyright {display: none;}

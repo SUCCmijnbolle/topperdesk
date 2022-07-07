@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,51 +7,29 @@
     <title>Make a password</title>
 </head>
 <body>
-<?php include("../include/nav.php"); ?> 
+<div id="nav"> 
+        <img src="../../img/front_end/TopperDeskBlack.png" alt="picture" style="width: 12.5%; height: 12.5%;">
+    </div>
     <div id="page">
         <div id="container">
-            <div class="flex-container">
-                <div class="flex-item-left" id="">
-                    <div class="container">
-                        <div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-item" id="">
-                    <div class="container">
-                        <div class="con">
-                        <!-- Hier moet alle content -->
-                        <div class ="col-25">
-                            <div class ="arial" class ="inlogtext">
-                                <label for="user"> Username </label>
-                                <input class="inlog" type="text" placeholder="Username" id="user" name="user">
-                            </div>
-                        </div>
-                        <div class ="col-25">
-                            <div class ="arial" class ="inlogtext">
-                                <label for="pass"> Password </label>
-                                <input class="inlog" id="pass" placeholder="Enter your new password" type="password" name="newpass">
-                            </div>
-                        </div>
-                        <div class ="col-25">
-                            <div class ="arial" class ="inlogtext">
-                                <label for="user"> Re-enter Password </label>
-                                <input class="inlog" type="text" placeholder="Re-enter your new password" id="user" name="renewpass">
-                            </div>
-                        </div>
-                                          
-                        <input type="button" class="login-button"><a href="../../inlog.php">Login</a></input>
-                        </div>
-                    </div>
-                </div>
-                            <div class="flex-item-right" id="">
-                            <div class="container">
-                            <div></div>
-                </div>
+            <form class="form" action="" method="post">
+                <h1 class="login-title">Wachtwoord Vergeten</h1>
+                <input type="text" class="login-input" name="username" placeholder="Username" required />
+                <input type="password" class="login-input" name="newpassword" placeholder="New Password" required>
+                <input type="password" class="login-input" name="repassword" placeholder="Re-Password" required>
+                <input type="submit" name="submit" value="Submit" class="login-button"> 
+            </form>
+            <div class= "inlog-option">
+                <div class="noacc" class= "inlog-option"><h3><a href="../../inlog.php" style="text-decoration: none;">Inloggen</a></h3> </div>
+                <?php 
+                    if (isset($_GET["error"])){
+                        if ($_GET["error"] == "wrong_value") {
+                            echo "<div class='error'><h3>Er zijn verkeerde waarden ingevuld</h3> </div>";
+                        }
+                    }
+                ?>
             </div>
         </div>
-            <h1>
     </div>
     <?php include("../include/footer.php"); ?>
 </body>

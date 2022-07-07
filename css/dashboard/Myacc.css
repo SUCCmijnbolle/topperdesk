@@ -1,0 +1,12 @@
+.editknop{
+    padding: 5px 5px;
+    color: white;
+    border: none;
+    font-size: small;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #ff1f29;
+}
+.edit{
+    visibility: hidden
+}

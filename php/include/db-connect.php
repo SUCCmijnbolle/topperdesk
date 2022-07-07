@@ -2,6 +2,5 @@
 $Servername = "localhost";
 $dbUsername = "root";
 $dbPassword = "";
-$dbName = "collector_sse";
+$dbName = "topperwopperbase";
 $conn = mysqli_connect($Servername, $dbUsername, $dbPassword, $dbName);
-?>
